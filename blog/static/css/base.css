@@ -14,11 +14,11 @@ header h1 a {
     text-decoration: none;
 }
 
-.nav_left {
+.nav-left {
     margin-right: auto;
 }
 
-.nav_right {
+.nav-right {
     display: flex;
     padding-top: 2rem;
 }
