@@ -32,6 +32,7 @@ class UserManagersTest(TestCase):
         self.assertTrue(admin_user.is_superuser)
 
 
+# Testing singup
 class SignupPageTest(TestCase):
     def test_url_exist_at_correct_location_signupview(self):
         response = self.client.get("/accounts/signup/")
